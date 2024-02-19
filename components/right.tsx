@@ -8,10 +8,6 @@ import { GiCircle } from "react-icons/gi";
 import { Switch } from "@/components/ui/switch"
 
 
-
-
-
-
 function Right() {
   return (
     <section>

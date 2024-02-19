@@ -58,10 +58,10 @@ const data = [
   }
 ];
 
- function DashBpttomLeft() {
+ function DashBottom() {
   return (
-    <section className="grid grid-cols-2 gap-5 p-5">
-      <Card className="py-5 border-2">
+    <section className="flex gap-5 p-5 w-full">
+      <Card className="py-5 border-2 flex-grow w-64">
         <CardContent>
           <CardTitle className="mb-3">Overview</CardTitle>
           <ResponsiveContainer width={"100%"} height={350}>
@@ -74,7 +74,7 @@ const data = [
         </CardContent>
       </Card>
 
-      <Card className="rounded-2 ">
+      <Card className="rounded-2 w-36 flex-grow">
         <CardHeader>
           <CardTitle>Recent Sales</CardTitle>
           <CardDescription>You made 265 sales this month.</CardDescription>
@@ -141,4 +141,4 @@ const data = [
     </section>
   );
 }
-export default DashBpttomLeft
+export default DashBottom

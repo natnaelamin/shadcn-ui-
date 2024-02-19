@@ -4,7 +4,7 @@ import { buttonVariants } from "@/components/ui/button"
 import Link from 'next/link'
 import { Input } from "@/components/ui/input"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { DatePickerWithRange } from "@/components/datepicker"
+import { DatePickerWithRange } from "@/components/datepickerwithrange"
 import { Button } from "@/components/ui/button"
 import { BsCurrencyDollar } from "react-icons/bs";
 import { GoPeople } from "react-icons/go";
